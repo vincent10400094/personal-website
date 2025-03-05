@@ -1,3 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll-scholar", group: :jekyll_plugins
+gem 'jekyll'
+
+# Core plugins that directly affect site building
+group :jekyll_plugins do
+    gem 'jekyll-scholar'
+    gem 'jekyll-sitemap'
+end
