@@ -99,6 +99,28 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+// Footer
+footer.fixed-bottom {
+  background-color: var(--global-footer-bg-color);
+  font-size: 0.75rem;
+
+  .container {
+    color: var(--global-footer-text-color);
+    padding-top: 9px;
+    padding-bottom: 8px;
+  }
+}
+
+// Bibliography
+div.title {
+  font-weight: bold;
+}
+
+ol.bibliography {
+  list-style-type: none;  // hide the decimal counters
+  padding-left: 2.5%;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
