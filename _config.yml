@@ -10,7 +10,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Yi-Min's personal website.
 footer_text: >
   Design and source code from <a href="https://jonbarron.info" target="_blank" style="font-size:small;">Jon Barron's website</a> 
-keywords:   # add your own keywords or leave empty
+keywords: Yi-Min, Lin, Yimin, Taiwan, NTU, security  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
